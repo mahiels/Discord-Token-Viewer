@@ -5,6 +5,7 @@ A Firefox addon that retrieves and copies your Discord authentication token from
 ## Requirements
 
 - Firefox **133.0 or later**
+- Works on other browsers
 
 ## Installation
 
