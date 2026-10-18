@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Token Viewer",
+  "version": "1.0",
+  "description": "View and copy your logged-in Discord token.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "discord-token-viewer@addon",
+      "strict_min_version": "133.0"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://*.discord.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
